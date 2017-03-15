@@ -1,0 +1,15 @@
+body {
+	font-family: 'Roboto', sans-serif
+}
+
+body nav {
+	background-color: #DED2BC !important
+}
+
+/*.nav.navbar-nav.navbar-right li a {
+	color: pink#585E63
+}*/
+
+.home {
+	font-weight: 300
+}
