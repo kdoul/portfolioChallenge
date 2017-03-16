@@ -12,6 +12,11 @@ body nav {
 	height: 500px;
 }
 
+.infoText {
+	font-size: 16px;
+	font-weight: 300;
+}
+
 .btn {
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -20,6 +25,7 @@ body nav {
 	color: #4A281D;
 	font-weight: 300;
 	margin-left: 5px;
+	margin-top: 5px;
 }
  
 #fbButton:hover {
@@ -68,6 +74,22 @@ body nav {
 
 #about {
 
+}
+
+#selfPic {
+	width: 300px;
+}
+
+#myWork {
+	color: #CEC5C2;
+	background-color: #5A3B31;
+	font-weight: 100;
+}
+
+#contact {
+	color: #B7B6B5;
+	background-color: #0D0908;
+	font-weight: 100;
 }
 
 .jumbotron hr {
