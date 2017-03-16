@@ -7,6 +7,13 @@ body nav {
     box-shadow: 0 4px 3px -3px gray;
 }
 
+footer {
+	color: #B7B6B5;
+    background-color: #0D0908;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
 .section {
     padding-top: 50px;
     padding-bottom: 75px;
@@ -94,11 +101,38 @@ body nav {
     font-weight: 100;
 }
 
+#myWork a {
+	color: #CEC5C2;
+	font-size: 16px;
+}
+
+#myWork p {
+	font-size: 16px;
+}
+
 #contact {
     color: #B7B6B5;
     background-color: #0D0908;
     font-weight: 100;
+    font-size: 16px;
 }
+
+#contact a {
+	color: #B7B6B5;
+}
+
+#myWork a:hover {
+
+	text-decoration: none;
+	color: #5bc0de !important;
+}
+
+ #contact a:hover {
+
+	text-decoration: none;
+	color: #5bc0de !important;
+}
+
 
 .jumbotron hr {
     border-top-color: #0D0908;
@@ -109,4 +143,8 @@ body nav {
     font-weight: 300;
     background: none;
     padding-top: 100px;
+}
+
+#contactInfo {
+	margin-top: 15px;
 }
