@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Bootstrap theme -->
     <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/myPortfolio.css">
 </head>
+<!-- <body data-spy="scroll" data-target=".navbar" data-offset="50"> -->
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -35,33 +37,43 @@
             </div>
     </nav>
     <!-- Home Section -->
-    <div id="home" class="container" style="padding-top: 50px; height: 400px">
-        <div class="jumbotron">
+    <div id="home" class="section">
+        <div class="jumbotron container">
             <h1>Welcome!</h1>
             <p>My name is Dukaki and I am a software developer</p>
+            <hr>
+            <div class="row">
+                <a href="#" class="btn" id="fbButton" role="button"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                <a href="#" class="btn" id="twitButton" role="button"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+                <a href="#" class="btn" id="gitButton" role="button"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                <a href="#" class="btn" id="bitButton" role="button"><i class="fa fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
+                <a href="#about" class="btn" id="moreButton" role="button">More</a>
+            </div>
         </div>
-        <h1></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+        <div class="shadow"></div>
+    </div>	
     <!-- About Section -->
-    <div id="about" style="padding-top: 50px; height: 400px; background-color: lightblue">
-        <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="about" class="section">
+        <div class="container">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
     </div>
     <!-- Work Section -->
-    <div id="myWork" style="padding-top: 50px; height: 400px">
+    <div id="myWork" class="container section">
         <h1>My Work</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <!-- Contact Section -->
-    <div id="contact" style="padding-top: 50px; height: 400px; background-color: green">
+    <div id="contact" class="container section">
         <h1>Contact</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-    <<!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <!-- Bootstrap JS -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/myPortfolio.js"></script>
 </body>
 
 </html>
