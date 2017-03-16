@@ -15,6 +15,11 @@ body nav {
 .infoText {
 	font-size: 16px;
 	font-weight: 300;
+	color: #0D0908;
+}
+
+.infoText hr {
+ border-top-color: #0D0908;
 }
 
 .btn {
